@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+	<title>로그인 예제</title>
+</head>
+<body>
+	<center>
+		<!-- login.php에 POST 방식으로 데이터를 전달 -->
+		<form id="loginForm" method="post" action="login.php">
+			<table>
+				<tbody>
+					<!-- ID를 입력 받는다. -->
+					<tr>
+						<td>ID: </td>
+						<td><input type="text" name="member_id"></td>
+					</tr>
+					<!-- 암호를 입력 받는다. -->
+					<tr>
+						<td>P/W: </td>
+						<td><input type="password" name="member_password"></td>
+					</tr>
+				</tbody>
+			</table>
+			<!-- 제출 -->
+			<input type="submit" value="Submit">
+		</form>
+	</center>
+</body>
+</html>
